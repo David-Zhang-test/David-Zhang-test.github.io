@@ -1,15 +1,35 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>你的网站</title>
+	<meta charset="utf-8">
+	<title>你的网站</title>
+	<style>
+		h1{
+			color: green;
+		}
+		p.fancy{
+			color:blue;
+		}
+	</style>
 </head>
 
 <body>
-	<font size="4">
-		<h1>这是一个很水的网站</h1>
-	</font>
-	<img src="微信公众号.jpg" width="100" height="100"><br/>
-	<p1>Hello World!</p1>
+	<header>
+		<nav id="home-nav">
+			<ul style="list-style-type:none">
+				<li>
+					<a class="nav-home" href = "http://david-zhang-test.github.io" style="text-decoration:none">
+						<strong style="color:black;">Mr.D的博客</strong>
+					</a>
+				</li>
+				
+			</ul>
+		</nav>
+	</header>
+
+	<h1>这是一个很水的网站</h1>
+	
+	<img src="微信公众号.jpg" width="100" height="100"><br>
+	<p class="fancy">Hello World</p>
 </body>
 </html>
