@@ -4,11 +4,29 @@
 	<meta charset="utf-8">
 	<title>你的网站</title>
 	<style>
+		body{
+			font-family:"Microsoft YaHei"
+		}
+		
+		
 		h1{
 			color: green;
 		}
-		p.fancy{
+		.fancy{
 			color:blue;
+		}
+		.top{
+			position: fixed;
+			_position:absoulte;
+			left:0px;
+			top:0px;
+			padding-left:10px;
+			list-style-type:none;
+			background-color:#4cb07b;
+			margin:0px;	
+		}
+		.nav-home{
+			text-decoration:none;
 		}
 	</style>
 </head>
@@ -16,10 +34,16 @@
 <body>
 	<header>
 		<nav id="home-nav">
-			<ul style="list-style-type:none">
+			<ul class="top">
 				<li>
-					<a class="nav-home" href = "http://david-zhang-test.github.io" style="text-decoration:none">
-						<strong style="color:black;">Mr.D的博客</strong>
+					<a class="nav-home" href = "http://david-zhang-test.github.io" style="">
+						<font size="6">
+							<strong style="color:black;background-color:#44a371;text-align:center">&nbsp;&nbsp;Mr.D的博客&nbsp;&nbsp;</strong>
+						</font>
+					</a>
+				</li>
+				<li>
+					<a class="">
 					</a>
 				</li>
 				
