@@ -6,12 +6,11 @@
 		<link rel="stylesheet" type="text/css" href="header.css">
 		<style>
 			.box{
-				border:1px solid white;
 				height:400px;
 				
 			}
 			.paragraphone{
-				width:400px;
+				width:300px;
 				height:400px;
 				margin:0 auto;
 				margin-top:100px;
@@ -19,22 +18,31 @@
 			}
 			.paragraphtwo{
 				width=800px;
-				height:800px;
+				height:400px;
 				margin:0 auto;
 				margin-top:150px;
-				margin-left:180px;
-				margin-right:180px;
-
-				
+				margin-left:200px;
+				margin-right:180px;	
 			}
+			.img1{
+				width:210px;
+				height:100%;
+				margin:0 auto;
+			}
+			
 		</style>
 		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
 		<script>
 			$(document).ready(function(){
-				$("#pp1").fadeIn(3000)
+				$("#pp1").fadeIn(2000)
 			});
 			$(document).ready(function(){
-				$("#pp2").fadeIn(6000)
+				$(".paragraphtwo").mouseover(function(){
+					$("#pp2").fadeIn(1500)
+				});
+			});
+			$(document).ready(function(){
+				$("#img1").fadeIn(2000)
 			});
 		</script>
 	</head>
@@ -83,10 +91,13 @@
 		
 		<div id="box">
 			<div class="paragraphone">
-				<p1 id="pp1" style="color:white;font-size:300px;text-align:center;display:none;">Hi!</p1>
+				<p1 id="pp1" style="color:white;font-size:300px;text-align:center;display:none;">Hi</p1>
+			</div>
+			<div class="img1">
+				<img id="img1" src="箭头.png" style="width=200px;margin:0 auto;display:none;">
 			</div>
 			<div class="paragraphtwo">
-				<p1 id="pp2" style="width:400px;text-align:center;color:white;font-size:50px;font-family:'Gabriola';letter-spacing:6px;display:none;">
+				<p1 id="pp2" style="text-align:center;color:white;font-size:50px;font-family:'Gabriola';letter-spacing:6px;display:none;">
 					I'm Mr.Zhang. Nice to meet you here! I'm a student from China. I like music, photography and program. </p1>
 			</div>
 				
