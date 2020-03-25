@@ -4,42 +4,60 @@
 		<meta charset="utf-8">
 		<title>你的网站</title>
 		<link rel="stylesheet" type="text/css" href="header.css">
-
-
+		<style>
+			.box{
+				
+				
+			}
+			.paragraphone{
+				width:400px;
+				height:400px;
+				position:fixed;
+				left:565px;
+				top:150px;
+					
+			}
+		</style>
+		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#pp1").fadeIn(3000)
+			});
+		</script>
 	</head>
 
-	<body bgcolor="black">
-		<div class="header">
-			<ul class="bar">
-				<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
+<body bgcolor="black">
+<div class="header">
+  <ul class="bar">
+	<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
 					<a class="nav-home" href = "http://david-zhang-test.github.io">
 						<font size="4">
 							<p1 style="color:white;text-align:center">HOME</p1>
 						</font>
 					</a>
 				</li>
-				<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
+	<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
 					<a class="nav-home" href="http://david-zhang-test.github.io/music-center" target="_blank">
 						<font size="4">
 							<p1 style="color:white;text-align:center;width=100px">MUSIC</p1>
 						</font>
 					</a>
 				</li>
-				<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
+	<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
 					<a class="nav-home" href="" target="_blank">
 						<font size="4">
 							<p1 style="color:white;text-align:center;width=100px">PHOTO</p1>
 						</font>
 					</a>
 				</li>
-				<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
+	<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
 					<a class="nav-home" href=""  target="_blank">
 						<font size="4">
 							<p1 style="color:white;text-align:center;width=100px">CODES</p1>
 						</font>
 					</a>
 				</li>
-				<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
+	<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
 					<a class="nav-home" href="http://david-zhang-test.github.io/about-me" target="_blank">
 						<font size="4">
 							<p1 style="color:white;text-align:center;width=100px">ABOUT</p1>
@@ -47,11 +65,15 @@
 					</a>
 				</li>
 
-			</ul>
-		</div>
+  </ul>
+</div>
 		
-		<div class="img1">
+		<div id="box">
+			<div class="paragraphone">
+				<p1 id="pp1" style="color:white;font-size:300px;text-align:center;display:none;">Hi!</p1>
+			</div>
+				
 		</div>
 
-	</body>
+</body>
 </html>
