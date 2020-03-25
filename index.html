@@ -3,64 +3,87 @@
 <head>
 	<meta charset="utf-8">
 	<title>你的网站</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
 	<style>
 		body{
-			font-family:"Microsoft YaHei"
+		font-family:"Microsoft YaHei"
+		}
+		.header{
+			width:window.innerWidth;
+			height:50px;
+			margin:0 auto;
+			text-align: center;
+			
+			
 		}
 		
-		
-		h1{
-			color: green;
+		.bar{
+			width:650px;
+			text-align:center;
+			margin:0 auto;
+
+
 		}
-		.fancy{
-			color:blue;
-		}
-		.top{
-			position: fixed;
-			_position:absoulte;
-			left:0px;
-			top:0px;
-			padding-left:10px;
-			list-style-type:none;
-			background-color:#4cb07b;
-			margin:0px;	
-		}
+
 		.nav-home{
 			text-decoration:none;
+
 		}
 		li{
 			float:left;
+			display:inline-block;
+			width:120px;
+			height:40px;
+			text-align:center;
+			line-height:40px;
+
 		}
-		
 	</style>
+	
+
 </head>
 
-<body>
-	<header>
-		<nav id="home-nav">
-			<ul class="top">
-				<li>
-					<a class="nav-home" href = "http://david-zhang-test.github.io">
-						<font size="6">
-							<strong style="color:black;background-color:#44a371;text-align:center">&nbsp;&nbsp;Mr.D的博客&nbsp;&nbsp;</strong>
-						</font>
-					</a>
-				</li>
-				<li>
-					<a class="nav-home" href="http://www.baidu.com" target:_blank>
-						<font size="6">
-							<p1 style="color:black;background-color:#4cb07b;text-align:center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p1>
-						</font>
-					</a>
-				</li>
-				
-			</ul>
-		</nav>
-	</header>
+<body bgcolor="black">
+	<div class="header">
+		<ul class="bar">
+			<li>
+				<a class="nav-home" href = "http://david-zhang-test.github.io">
+					<font size="4">
+						<p1 style="color:white;text-align:center">HOME</p1>
+					</font>
+				</a>
+			</li>
+			<li>
+				<a class="nav-home" href="http://david-zhang-test.github.io/music-center" target:_blank>
+					<font size="4">
+						<p1 style="color:white;text-align:center;width=100px">MUSIC</p1>
+					</font>
+				</a>
+			</li>
+			<li>
+				<a class="nav-home" href="" target:_blank>
+					<font size="4">
+						<p1 style="color:white;text-align:center;width=100px">PHOTO</p1>
+					</font>
+				</a>
+			</li>
+			<li>
+				<a class="nav-home" href="" target:_blank>
+					<font size="4">
+						<p1 style="color:white;text-align:center;width=100px">CODES</p1>
+					</font>
+				</a>
+			</li>
+			<li>
+				<a class="nav-home" href="http://david-zhang-test.github.io/about-me" target:_blank>
+					<font size="4">
+						<p1 style="color:white;text-align:center;width=100px">ABOUT</p1>
+					</font>
+				</a>
+			</li>
 
-	<h1>这是一个很水的网站</h1>
-	
-	<img src="微信公众号.jpg" width="100" height="100"><br>
-	<p class="fancy">Hello World</p>
+		</ul>
+	</div>
+
 </body>
 </html>
