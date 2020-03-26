@@ -73,6 +73,24 @@
 			$(document).ready(function(){
 				$("#img1").fadeIn(2000)
 			});
+			$(document).ready(function(){
+				$(".about_me_img").mouseover(function(){
+					$(".about_me_img2").fadeIn(1500)
+					$(".about_me_text").fadeIn(1500)
+					$(".about_me_button").fadeIn(1500)
+					
+				});
+				
+			});
+			$(document).ready(function(){
+				$(".about_me_img").mouseout(function(){
+						$(".about_me_img2").fadeOut(1500)
+						$(".about_me_text").fadeOut(1500)
+						$(".about_me_button").fadeOut(1500)
+					
+				});
+			});
+			
 		</script>
 	</head>
 
@@ -140,7 +158,7 @@
 						<img src="about.png" style="width:100px;height:50px;margin-left:-10px">
 						
 					</div>
-					<div class="about_me_img">
+					<div class="about_me_img2" style="display:none">
 						<img src="框1.png" style="width:400px;height:500px;margin-top:20px">
 					<div class="about_me_head">
 						<img src="头像1.png" style="width:200px;height:200px;	">
@@ -148,11 +166,11 @@
 						
 						
 					</div>
-					<div class="about_me_text">
-						<p style="color:white;margin-top:px;margin-left:20px;font-size:20px;letter-spacing:4px">I'm a student from China. I like music, photography, program etc. Hope you can enjoy this website.
+					<div class="about_me_text" style="display:none">
+						<p style="color:white;margin-top:10px;margin-left:20px;font-size:20px;letter-spacing:4px;">I'm a student from China. I like music, photography, program etc. Hope you can enjoy this website.
 						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;——Mr.Zhang</p>
 					</div>
-					<div class="about_me_button">
+					<div class="about_me_button" style="display:none">
 						
 						<a href="http://david-zhang-test.github.io/about-me"><button style="width:250px;height:40px;border:1px solid white;border-radius:5px;background-color:black;font-size:14px;font-family:'Lato';letter-spacing:3px;color:white">Learn More</button></a>
 					</div>
