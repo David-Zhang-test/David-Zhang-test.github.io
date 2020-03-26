@@ -2,143 +2,55 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>你的网站</title>
+		<title>Mr.Zhang的网站</title>
 		<link rel="stylesheet" type="text/css" href="header.css">
-		<style>
-			.box{
-				height:400px;
-				
-			}
-			.paragraphone{
-				width:300px;
-				height:400px;
-				margin:0 auto;
-				margin-top:100px;
-					
-			}
-			.paragraphtwo{
-				width=800px;
-				height:300px;
-				margin:0 auto;
-				margin-top:50px;
-				margin-left:200px;
-				margin-right:180px;	
-			}
-			.img1{
-				width:210px;
-				height:100%;
-				margin:0 auto;
-			}
-			.otherbox{
-
-			}
-			.about_me{
-
-				width:400px;
-				height:600px;
-				margin-left:100px;
-					
-					
-			}
-			.about_me_title{
-				width:90px;
-				margin: 0 auto;
-			}
-			.about_me_head{
-				width:200px;
-				margin:0 auto;
-				margin-top:-500px;
-				
-			}
-			.about_me_text{
-				margin-top:-20px;
-			}
-			.about_me_button{
-				width:250px;
-				margin:0 auto;
-				
-			}
-			
-		</style>
+		<link rel="stylesheet" type="text/css" href="box.css">
 		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
-		<script>
-			$(document).ready(function(){
-				$("#pp1").fadeIn(2000)
-			});
-			$(document).ready(function(){
-				$(".paragraphtwo").mouseover(function(){
-					$("#pp2").fadeIn(1500)
-				});
-			});
-			$(document).ready(function(){
-				$("#img1").fadeIn(2000)
-			});
-			$(document).ready(function(){
-				$(".about_me").mouseenter(function(){
-					
-					$(".about_me_img2").fadeIn(1500)
-					$(".about_me_head").fadeIn(1500)
-					$(".about_me_text").fadeIn(1500)
-					$(".about_me_button").fadeIn(1500)
-	
-				});
-				
-			});
-			$(document).ready(function(){
-				$(".about_me").mouseleave(function(){
-					
-					$(".about_me_img2").fadeOut(1500)
-					$(".about_me_head").fadeOut(1500)
-					$(".about_me_text").fadeOut(1500)
-					$(".about_me_button").fadeOut(1500)
-
-				});
-			});
-			
-		</script>
+		<script src="jQuery.js"></script>
 	</head>
 
-<body bgcolor="black">
-<div class="header">
-  <ul class="bar">
-	<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
+	<body background="背景.png">
+		<div class="header">
+  			<ul class="bar">
+				<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
 					<a class="nav-home" href = "http://david-zhang-test.github.io">
 						<font size="4">
 							<p1 style="color:white;text-align:center">HOME</p1>
 						</font>
 					</a>
 				</li>
-	<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
+				<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
 					<a class="nav-home" href="http://david-zhang-test.github.io/music-center" >
 						<font size="4">
 							<p1 style="color:white;text-align:center;width=100px">MUSIC</p1>
 						</font>
 					</a>
 				</li>
-	<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
-					<a class="nav-home" href="" >
-						<font size="4">
-							<p1 style="color:white;text-align:center;width=100px">PHOTO</p1>
-						</font>
-					</a>
-				</li>
-	<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
-					<a class="nav-home" href=""  >
-						<font size="4">
-							<p1 style="color:white;text-align:center;width=100px">CODES</p1>
-						</font>
-					</a>
-				</li>
-	<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
+				<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
 					<a class="nav-home" href="http://david-zhang-test.github.io/about-me">
 						<font size="4">
 							<p1 style="color:white;text-align:center;width=100px">ABOUT</p1>
 						</font>
 					</a>
 				</li>
+				<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
+					<a class="nav-home" href="" >
+						<font size="4">
+							<p1 style="color:white;text-align:center;width=100px">PHOTO</p1>
+						</font>
+					</a>
+				</li>
+				<li onmouseover="this.className='selcet'" onMouseOut="this.className='selceted'">
+					<a class="nav-home" href=""  >
+						<font size="4">
+							<p1 style="color:white;text-align:center;width=100px">CODES</p1>
+						</font>
+					</a>
+				</li>
+	
 
-  </ul>
-</div>
+  			</ul>
+		</div>
 		
 		<div id="box">
 			<div class="paragraphone">
@@ -151,38 +63,7 @@
 				<p1 id="pp2" style="text-align:center;color:white;font-size:50px;font-family:'Gabriola';letter-spacing:6px;display:none;">
 					I'm Mr.Zhang. Nice to meet you here! This is my personal website, I will update it from time to time. </p1>
 			</div>
-			<div class="otherbox">
-				<div class="about_me">
-					<div class="about_me_title">
-						<p1 id="pp3" style="text-align:center;color:white;font-size:25px;font-family:''Trade Gothic W01''">ABOUT</p1>
-					</div>
-					<div class="about_me_img">
-						
-						<img src="about.png" style="width:100px;height:50px;">
-						<img src="about.png" style="width:100px;height:50px;">
-						<img src="about.png" style="width:100px;height:50px;">
-						
-					</div>
-					
-					<div class="about_me_img2" style="display:none">
-						<img src="框1.png" style="width:400px;height:500px;margin-top:20px">
-					<div class="about_me_head" style="display:none">
-						<img src="头像1.png" style="width:200px;height:200px;	">
-						</div>
-
-
-					</div>
-					<div class="about_me_text" style="display:none">
-						<p style="color:white;margin-top:px;margin-left:20px;font-size:20px;letter-spacing:4px;">I'm a student from China. I like music, photography, program etc. Hope you can enjoy this website.
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;——Mr.Zhang</p>
-					</div>
-					<div class="about_me_button" style="display:none">
-
-						<a href="http://david-zhang-test.github.io/about-me"><button style="width:250px;height:40px;border:1px solid white;border-radius:5px;background-color:black;font-size:14px;font-family:'Lato';letter-spacing:3px;color:white">Learn More</button></a>
-					</div>
-					
-				</div>
-			</div>
+			
 				
 		</div>
 
