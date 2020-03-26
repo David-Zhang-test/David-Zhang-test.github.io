@@ -4,14 +4,19 @@ body{
 	font-family:"Microsoft YaHei";
 }
 .header{
+	/*border: 1px solid white;*/
 	width:window.innerWidth;
 	height:50px;
-	matgin:0 auto;
+	position:fixed;
+	left:383px;
+	background-color:black;
+	top:0px;
+	margin:0 auto;
 	text-aligen:center;
 	
 }
 .bar{
-	width:650px;
+	width:770px;
 	text-align:center;
 	margin:0 auto;
 }
