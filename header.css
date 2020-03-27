@@ -3,15 +3,21 @@
 body{
 	font-family:"Microsoft YaHei";
 }
-.header{
-	width:window.innerWidth;
-	height:50px;
+.header-bar{
 	position:fixed;
-	left:355px;
-	background-color:black;
 	top:0px;
+	width:1536px;
+	left:0px;
+	background-color:black;
+	
+	
+}
+.header{
+	width:820px;
+	height:50px;
+	
 	margin:0 auto;
-	text-aligen:center;
+	text-aligen:center;	
 	
 }
 .bar{
