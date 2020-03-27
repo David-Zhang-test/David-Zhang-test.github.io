@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$("#pp1").fadeIn(5000)
 });
 $(document).ready(function(){
-	$(".paragraphtwo").mouseover(function(){
+	$(".img1").mouseover(function(){
 		$("#pp2").fadeIn(1500)
 	});
 });
