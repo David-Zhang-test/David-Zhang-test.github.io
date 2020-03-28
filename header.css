@@ -28,6 +28,7 @@ body{
 
 .nav-home{
 	text-decoration:none;
+	outline:none;
 
 }
 li{
