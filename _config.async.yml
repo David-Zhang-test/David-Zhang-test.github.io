@@ -1,0 +1,56 @@
+theme:
+  switch: true
+  default: style-dark
+favicon:
+  logo: favicon.jpg
+  icon16: favicon.jpg
+  visibilitychange: true
+user:
+  name: David John
+  first_name: John
+  last_name: David
+  email: davidzhangtest@gmail.com
+  avatar: favicon.jpg
+  describe: 来去之
+banner:
+  index:
+    bannerTitle: 来去之
+    bannerText: 一个热衷于改变的理想主义者，喜爱人文的非典型理工男。
+footer:
+  powered:
+    enable: true
+  beian:
+    enable: false
+    icp:
+  copyrightYear: 2024
+  live_time:
+    enable: false
+    prefix: footer.tips
+    start_time: 02/17/2024 12:00
+  custom_text:
+
+sidebar:
+  social: # 社交地址
+    - name: github
+      icon: fab fa-github
+      url: https://github.com/david-zhang-test
+  typedTextPrefix: I`m
+  typedText: ["A Citizen","A Reformer","An Idealist"]
+
+  info:
+    - key: Residence
+      val: Earth
+    - key: age
+      val: 19
+    - key: education
+      val: bdfz 23'  whu 27'
+
+creative_commons:
+  license: by-nc-sa
+  language: deed.zh
+  post: false
+  clipboard: true
+
+post_pagination:
+  enable: true
+  type: small
