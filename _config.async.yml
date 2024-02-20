@@ -3,8 +3,14 @@ theme:
   default: style-dark
 favicon:
   logo: favicon.jpg
+  dark_logo: favicon.jpg
   icon16: favicon.jpg
+  icon32: favicon.jpg
   visibilitychange: true
+  webmanifest: /site.webmanifest
+  hidden: failure.ico
+  showText: (/≧▽≦/)咦！你回来了！
+  hideText: (●—●)喔哟，别走啊！
 user:
   name: David John
   first_name: John
@@ -12,10 +18,36 @@ user:
   email: davidzhangtest@gmail.com
   avatar: favicon.jpg
   describe: 来去之
+
+top_bars:
+  - title: 首页
+    url: /
+  - title: 归档
+    url: /archives/
+  - title: 学习笔记
+    url: /#
+    children:
+      - title: C++ Book
+        url: https://david-zhang-test.github.io/CPlusPlusBook/
+    
+  - title: 关于
+    url: /about/
+    
+
 banner:
   index:
     bannerTitle: 来去之
     bannerText: 一个热衷于改变的理想主义者，喜爱人文的非典型理工男。
+  about:
+    bannerTitle: 关于
+    bannerText: 关于
+  archive:
+    bannerTitle: 归档
+    bannerText: 归档
+
+
+
+
 footer:
   powered:
     enable: true
@@ -34,6 +66,9 @@ sidebar:
     - name: github
       icon: fab fa-github
       url: https://github.com/david-zhang-test
+    - name: twitter
+      icon: fab fa-twitter
+      url: https://twitter.com/David_John_Test
   typedTextPrefix: I`m
   typedText: ["A Citizen","A Reformer","An Idealist"]
 
@@ -54,3 +89,23 @@ creative_commons:
 post_pagination:
   enable: true
   type: small
+
+toc:
+  enable: true
+  list_number: true
+  post_title: false
+  max_depth: 3
+  min_depth: 1
+
+
+# page settings
+
+archive:
+  type: less
+
+about:
+  insert: none
+  title: 有关我的一小部分。
+  introduction: 大家好，我是 <strong>David</strong>，一个热衷于改变的理想主义者，喜爱人文的非典型理工男。关于David John这个名字，David是我从小使用的英文名，John则是一个Zhang音译的恶搞。<br />我的理想有很多，上到世界众生，小到人格修养。技术则是我的武器，只有脚踩泥泞的土地才能改变现实。保持思考，永远前行。
+
+  
