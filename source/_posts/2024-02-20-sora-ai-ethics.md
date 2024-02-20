@@ -2,8 +2,7 @@
 layout: post
 title: sora与ai ethics
 date: 2024-02-20 19:58:31
-categories: thoughts
-tags: [ai, sora]
+categories: ai
 cover: "../img/2024-02/Screenshot%202024-02-17%20114500.png"
 ---
 

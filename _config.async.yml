@@ -1,6 +1,18 @@
+# general configurations
 theme:
   switch: true
   default: style-dark
+
+user:
+  name: David John
+  first_name: John
+  last_name: David
+  email: davidzhangtest@gmail.com
+  avatar: favicon.jpg
+  describe: 来去之
+
+
+
 favicon:
   logo: favicon.jpg
   dark_logo: favicon.jpg
@@ -11,14 +23,8 @@ favicon:
   hidden: failure.ico
   showText: (/≧▽≦/)咦！你回来了！
   hideText: (●—●)喔哟，别走啊！
-user:
-  name: David John
-  first_name: John
-  last_name: David
-  email: davidzhangtest@gmail.com
-  avatar: favicon.jpg
-  describe: 来去之
 
+# pages
 top_bars:
   - title: 首页
     url: /
@@ -28,12 +34,10 @@ top_bars:
     url: #
     children:
       - title: C++ Book
-        url: https://david-zhang-test.github.io/CPlusPlusBook/
-    
+        url: https://david-zhang-test.github.io/CPlusPlusBook/   
   - title: 关于
     url: /about/
     
-
 banner:
   index:
     bannerTitle: 来去之
@@ -44,9 +48,6 @@ banner:
   archive:
     bannerTitle: 归档
     bannerText: 归档
-
-
-
 
 footer:
   powered:
@@ -61,6 +62,7 @@ footer:
     start_time: 02/17/2024 12:00
   custom_text:
 
+
 sidebar:
   social: # 社交地址
     - name: github
@@ -69,6 +71,9 @@ sidebar:
     - name: twitter
       icon: fab fa-twitter
       url: https://twitter.com/David_John_Test
+    - name: wechat
+      icon: fab fa-weixin
+      url: https://mp.weixin.qq.com/s/eEhOhV7Fvms_wW3ziTH9Mw
   typedTextPrefix: I`m
   typedText: ["A Citizen","A Reformer","An Idealist"]
 
@@ -83,8 +88,8 @@ sidebar:
 creative_commons:
   license: by-nc-sa
   language: deed.zh
-  post: false
-  clipboard: true
+  post: true
+  clipboard: false
 
 post_pagination:
   enable: true
