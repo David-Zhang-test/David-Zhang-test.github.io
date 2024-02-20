@@ -115,3 +115,6 @@ about:
   blog:
   privacy:
   
+webAnalytics:
+  enable: true
+  google: G-TBXV6P86XW
